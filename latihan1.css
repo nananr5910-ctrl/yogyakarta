@@ -1,0 +1,95 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #B2ABF2;
+}
+
+nav {
+    background-color: #BFEEE8;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0E4143;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #0E4143;
+    text-indent: 50px;
+}
+
+h3 {
+    color: #F8CB77;
+    text-indent: 85px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+}
+
+header > p {
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content{
+    flex: 3;
+    box-shadow: -8px 10px 26px 8px rgba(103, 3, 252, 0.20);
+    border-radius: 8px;
+
+}
+
+aside{
+    flex: 1;
+    box-shadow: -8px 10px 26px 8px rgba(103, 3, 252, 0.20);
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+img{
+    padding-left: 30px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+
